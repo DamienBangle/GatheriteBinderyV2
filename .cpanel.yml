@@ -1,0 +1,5 @@
+---
+deployment:
+tasks:
+- export DEPLOYPATH=/index.html/public_html/
+- /bin/cp -R images $DEPLOYPATH
