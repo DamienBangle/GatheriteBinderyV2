@@ -16,7 +16,7 @@
   border: $pagination-border-width solid $pagination-border-color;
 
   &:hover {
-    z-index: 2;
+    z-home: 2;
     color: $pagination-hover-color;
     text-decoration: none;
     background-color: $pagination-hover-bg;
@@ -24,7 +24,7 @@
   }
 
   &:focus {
-    z-index: 3;
+    z-home: 3;
     outline: $pagination-focus-outline;
     box-shadow: $pagination-focus-box-shadow;
   }
@@ -44,7 +44,7 @@
   }
 
   &.active .page-link {
-    z-index: 3;
+    z-home: 3;
     color: $pagination-active-color;
     background-color: $pagination-active-bg;
     border-color: $pagination-active-border-color;

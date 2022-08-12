@@ -64,7 +64,7 @@ body {
   background-color: #fff;
 }
 
-[tabindex="-1"]:focus:not(:focus-visible) {
+[tabhome="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
 
@@ -2076,7 +2076,7 @@ textarea.form-control {
   position: absolute;
   top: 100%;
   left: 0;
-  z-index: 5;
+  z-home: 5;
   display: none;
   max-width: 100%;
   padding: 0.25rem 0.5rem;
@@ -2177,7 +2177,7 @@ textarea.form-control {
   position: absolute;
   top: 100%;
   left: 0;
-  z-index: 5;
+  z-home: 5;
   display: none;
   max-width: 100%;
   padding: 0.25rem 0.5rem;
@@ -3032,7 +3032,7 @@ input[type="button"].btn-block {
   position: absolute;
   top: 100%;
   left: 0;
-  z-index: 1000;
+  z-home: 1000;
   display: none;
   float: left;
   min-width: 10rem;
@@ -3265,14 +3265,14 @@ input[type="button"].btn-block {
 
 .btn-group > .btn:hover,
 .btn-group-vertical > .btn:hover {
-  z-index: 1;
+  z-home: 1;
 }
 
 .btn-group > .btn:focus, .btn-group > .btn:active, .btn-group > .btn.active,
 .btn-group-vertical > .btn:focus,
 .btn-group-vertical > .btn:active,
 .btn-group-vertical > .btn.active {
-  z-index: 1;
+  z-home: 1;
 }
 
 .btn-toolbar {
@@ -3406,11 +3406,11 @@ input[type="button"].btn-block {
 .input-group > .form-control:focus,
 .input-group > .custom-select:focus,
 .input-group > .custom-file .custom-file-input:focus ~ .custom-file-label {
-  z-index: 3;
+  z-home: 3;
 }
 
 .input-group > .custom-file .custom-file-input:focus {
-  z-index: 4;
+  z-home: 4;
 }
 
 .input-group > .form-control:not(:last-child),
@@ -3449,12 +3449,12 @@ input[type="button"].btn-block {
 .input-group-prepend .btn,
 .input-group-append .btn {
   position: relative;
-  z-index: 2;
+  z-home: 2;
 }
 
 .input-group-prepend .btn:focus,
 .input-group-append .btn:focus {
-  z-index: 3;
+  z-home: 3;
 }
 
 .input-group-prepend .btn + .btn,
@@ -3558,7 +3558,7 @@ input[type="button"].btn-block {
 
 .custom-control {
   position: relative;
-  z-index: 1;
+  z-home: 1;
   display: block;
   min-height: 1.5rem;
   padding-left: 1.5rem;
@@ -3573,7 +3573,7 @@ input[type="button"].btn-block {
 .custom-control-input {
   position: absolute;
   left: 0;
-  z-index: -1;
+  z-home: -1;
   width: 1rem;
   height: 1.25rem;
   opacity: 0;
@@ -3783,7 +3783,7 @@ input[type="button"].btn-block {
 
 .custom-file-input {
   position: relative;
-  z-index: 2;
+  z-home: 2;
   width: 100%;
   height: calc(1.5em + 0.75rem + 2px);
   margin: 0;
@@ -3813,7 +3813,7 @@ input[type="button"].btn-block {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 1;
+  z-home: 1;
   height: calc(1.5em + 0.75rem + 2px);
   padding: 0.375rem 0.75rem;
   font-weight: 400;
@@ -3829,7 +3829,7 @@ input[type="button"].btn-block {
   top: 0;
   right: 0;
   bottom: 0;
-  z-index: 3;
+  z-home: 3;
   display: block;
   height: calc(1.5em + 0.75rem);
   padding: 0.375rem 0.75rem;
@@ -4748,7 +4748,7 @@ input[type="button"].btn-block {
 }
 
 .page-link:hover {
-  z-index: 2;
+  z-home: 2;
   color: #8e764c;
   text-decoration: none;
   background-color: #e9ecef;
@@ -4756,7 +4756,7 @@ input[type="button"].btn-block {
 }
 
 .page-link:focus {
-  z-index: 3;
+  z-home: 3;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(180, 156, 115, 0.25);
 }
@@ -4773,7 +4773,7 @@ input[type="button"].btn-block {
 }
 
 .page-item.active .page-link {
-  z-index: 3;
+  z-home: 3;
   color: #fff;
   background-color: #B49C73;
   border-color: #B49C73;
@@ -5020,7 +5020,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   position: absolute;
   top: 0;
   right: 0;
-  z-index: 2;
+  z-home: 2;
   padding: 0.75rem 1.25rem;
   color: inherit;
 }
@@ -5213,7 +5213,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .list-group-item-action:hover, .list-group-item-action:focus {
-  z-index: 1;
+  z-home: 1;
   color: #495057;
   text-decoration: none;
   background-color: #f8f9fa;
@@ -5249,7 +5249,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .list-group-item.active {
-  z-index: 2;
+  z-home: 2;
   color: #fff;
   background-color: #B49C73;
   border-color: #B49C73;
@@ -5625,7 +5625,7 @@ a.close.disabled {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1050;
+  z-home: 1050;
   display: none;
   width: 100%;
   height: 100%;
@@ -5722,7 +5722,7 @@ a.close.disabled {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1040;
+  z-home: 1040;
   width: 100vw;
   height: 100vh;
   background-color: #000;
@@ -5823,7 +5823,7 @@ a.close.disabled {
 
 .tooltip {
   position: absolute;
-  z-index: 1070;
+  z-home: 1070;
   display: block;
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -5936,7 +5936,7 @@ a.close.disabled {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1060;
+  z-home: 1060;
   display: block;
   max-width: 276px;
   font-family: "Montserrat", sans-serif;
@@ -6155,13 +6155,13 @@ a.close.disabled {
 .carousel-fade .carousel-item.active,
 .carousel-fade .carousel-item-next.carousel-item-left,
 .carousel-fade .carousel-item-prev.carousel-item-right {
-  z-index: 1;
+  z-home: 1;
   opacity: 1;
 }
 
 .carousel-fade .active.carousel-item-left,
 .carousel-fade .active.carousel-item-right {
-  z-index: 0;
+  z-home: 0;
   opacity: 0;
   transition: opacity 0s 0.6s;
 }
@@ -6178,7 +6178,7 @@ a.close.disabled {
   position: absolute;
   top: 0;
   bottom: 0;
-  z-index: 1;
+  z-home: 1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6234,7 +6234,7 @@ a.close.disabled {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 15;
+  z-home: 15;
   display: flex;
   justify-content: center;
   padding-left: 0;
@@ -6275,7 +6275,7 @@ a.close.disabled {
   right: 15%;
   bottom: 20px;
   left: 15%;
-  z-index: 10;
+  z-home: 10;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
@@ -7459,7 +7459,7 @@ button.bg-dark:focus {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 1030;
+  z-home: 1030;
 }
 
 .fixed-bottom {
@@ -7467,14 +7467,14 @@ button.bg-dark:focus {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1030;
+  z-home: 1030;
 }
 
 @supports (position: sticky) {
   .sticky-top {
     position: sticky;
     top: 0;
-    z-index: 1020;
+    z-home: 1020;
   }
 }
 
@@ -9397,7 +9397,7 @@ button.bg-dark:focus {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1;
+  z-home: 1;
   pointer-events: auto;
   content: "";
   background-color: rgba(0, 0, 0, 0);
@@ -9765,7 +9765,7 @@ h4, h5, h6 {
   display: none;
   right: 15px;
   bottom: 15px;
-  z-index: 11;
+  z-home: 11;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -9794,7 +9794,7 @@ h4, h5, h6 {
   right: 0;
   bottom: 0;
   background: rgba(55, 55, 63, 0.7);
-  z-index: 1;
+  z-home: 1;
 }
 
 @media (min-width: 992px) {
@@ -9853,7 +9853,7 @@ h4, h5, h6 {
   justify-content: center;
   background: rgba(55, 55, 63, 0.7);
   transition: .5s;
-  z-index: 1;
+  z-home: 1;
   opacity: 0;
 }
 
@@ -9870,7 +9870,7 @@ h4, h5, h6 {
   left: 28px;
   border: 12px solid;
   border-color: #37373F transparent transparent transparent;
-  z-index: 1;
+  z-home: 1;
 }
 
 .testimonial-carousel .owl-dots {

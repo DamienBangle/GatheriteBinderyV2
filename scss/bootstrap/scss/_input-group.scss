@@ -15,7 +15,7 @@
   > .form-control-plaintext,
   > .custom-select,
   > .custom-file {
-    position: relative; // For focus state's z-index
+    position: relative; // For focus state's z-home
     flex: 1 1 auto;
     width: 1%;
     min-width: 0; // https://stackoverflow.com/questions/36247140/why-dont-flex-items-shrink-past-content-size
@@ -32,12 +32,12 @@
   > .form-control:focus,
   > .custom-select:focus,
   > .custom-file .custom-file-input:focus ~ .custom-file-label {
-    z-index: 3;
+    z-home: 3;
   }
 
   // Bring the custom file input above the label
   > .custom-file .custom-file-input:focus {
-    z-index: 4;
+    z-home: 4;
   }
 
   > .form-control,
@@ -74,10 +74,10 @@
   // as our inputs.
   .btn {
     position: relative;
-    z-index: 2;
+    z-home: 2;
 
     &:focus {
-      z-index: 3;
+      z-home: 3;
     }
   }
 
