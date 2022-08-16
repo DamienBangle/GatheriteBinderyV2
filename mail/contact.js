@@ -18,10 +18,10 @@ $(function () {
                 url: "contact.php",
                 type: "POST",
                 data: {
-                    name: name,
-                    email: email,
-                    subject: subject,
-                    message: message
+                    name = name,
+                    email = email,
+                    subject = subject,
+                    message = message
                 },
                 cache: false,
                 success: function () {
