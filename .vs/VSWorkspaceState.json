@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\img"
+    "\\css\\styles",
+    "\\css\\styles\\buttons",
+    "\\scss\\bootstrap",
+    "\\scss\\bootstrap\\scss",
+    "\\scss\\bootstrap\\scss\\utilities"
   ],
-  "SelectedNode": "\\Index.html",
+  "SelectedNode": "\\contact.html",
   "PreviewInSolutionExplorer": false
 }
